@@ -15,5 +15,5 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-sed -i '$a src-git node https://github.com/nxhack/openwrt-node-packages.git;openwrt-19.07' feeds.conf.default
+sed -i '$a src-git node https://github.com/nxhack/openwrt-node-packages.git' feeds.conf.default
  
