@@ -126,7 +126,7 @@ jobs:
   #    if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
       with:
         name: OpenWrt_bin${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
-        path: openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt76x8/linux-4.14.217/drivers/usb/serial
+        path: openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt76x8/linux-4.14.217/drivers/net/usb
    #     path: openwrt/bin
 
     - name: Organize files
